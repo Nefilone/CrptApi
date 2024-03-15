@@ -114,7 +114,7 @@ public class CrptApi {
     /**
      * Внутренний класс для представления документа.
      */
-    protected static class Document {
+    static class Document {
         private Description description;
         private String doc_id;
         private String doc_status;
